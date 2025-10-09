@@ -1,0 +1,18 @@
+phrase:
+  project_id: 0e701987a5a188cbce78e5f48c9513ce
+  file_format: yml
+
+  push:
+    sources:
+    - file: en.yml
+      params:
+        file_format: yml
+        locale_id: e45a7674f14c2fbc9d7426c926e55a3e
+        
+  pull:
+    targets:
+    - file: en.yml
+      params:
+        file_format: yml
+        locale_id: 74479b8537d5a513673d36eb0d790696
+        
