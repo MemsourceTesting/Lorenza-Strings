@@ -6,8 +6,11 @@ phrase:
     - file: C:/Users/Lorenza/Downloads/Phrase_TSA_Test_FIles_(1)/en.yml
       params:
         file_format: yml
+        locale_id: df7ff9742697b2bb4e5c2e4ce07ef350
   pull:
     targets:
     - file: C:/Users/Lorenza/Downloads/Phrase_TSA_Test_FIles_(1)/en.yml
       params:
         file_format: yml
+        locale_id: 30cfca4847bb590622aa36da301d8a5d
+
