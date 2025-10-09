@@ -1,17 +1,43 @@
 phrase:
-  project_id: 74479b8537d5a513673d36eb0d790696
+  project_id: a4e7d5f425cf5a7f639a3601f8450b12
   file_format: yml
-
+  
   push:
     sources:
     - file: en.yml
       params:
         file_format: yml
         locale_id: df7ff9742697b2bb4e5c2e4ce07ef350
-        
+        update_translations: true
+        update_descriptions: false
+        skip_upload_tags: false
+        skip_unverification: false
+        file_encoding: "UTF-8"
+        autotranslate: false
+        mark_reviewed: false
+        format_options:
+          ignore_source_translations: false
+          ignore_target_translations: false
+          msgid_as_default: false
+          strip_placeholder_delimiters: false
+          override_file_language: false
+  
   pull:
     targets:
     - file: en.yml
       params:
         file_format: yml
         locale_id: 30cfca4847bb590622aa36da301d8a5d
+        update_translations: true
+        update_descriptions: false
+        skip_upload_tags: false
+        skip_unverification: false
+        file_encoding: "UTF-8"
+        autotranslate: false
+        mark_reviewed: false
+        format_options:
+          ignore_source_translations: false
+          ignore_target_translations: false
+          msgid_as_default: false
+          strip_placeholder_delimiters: false
+          override_file_language: false
