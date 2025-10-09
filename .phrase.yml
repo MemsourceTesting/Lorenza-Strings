@@ -1,6 +1,6 @@
 phrase:
   project_id: a4e7d5f425cf5a7f639a3601f8450b12
-  file_format: yml
+  file_format: yaml
 
 push:
   sources:
@@ -35,4 +35,5 @@ pull:
           msgid_as_default: false
           strip_placeholder_delimiters: false
           override_file_language: false
+
 
