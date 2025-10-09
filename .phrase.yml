@@ -1,5 +1,5 @@
 phrase:
-  project_id: 0e701987a5a188cbce78e5f48c9513ce
+  project_id: 74479b8537d5a513673d36eb0d790696
   file_format: yml
 
   push:
@@ -7,12 +7,13 @@ phrase:
     - file: en.yml
       params:
         file_format: yml
-        locale_id: e45a7674f14c2fbc9d7426c926e55a3e
+        locale_id: df7ff9742697b2bb4e5c2e4ce07ef350
         
   pull:
     targets:
     - file: en.yml
       params:
         file_format: yml
-        locale_id: 74479b8537d5a513673d36eb0d790696
+        locale_id: 30cfca4847bb590622aa36da301d8a5d
+
         
