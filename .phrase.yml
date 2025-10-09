@@ -1,37 +1,13 @@
 phrase:
-  project_id: "a4e7d5f425cf5a7f639a3601f8450b12"
-  file_format: yaml
-
+  access_token: ea5c8dc75d258ae1abc3418d70f6edb3e47392aa9ebb1f00cb7566ad6d1e9916
+  project_id: a4e7d5f425cf5a7f639a3601f8450b12
   push:
     sources:
-      - file: "en.yml"
-        params:
-          file_format: yaml
-          locale_id: "df7ff9742697b2bb4e5c2e4ce07ef350"
-          update_translations: true
-          update_descriptions: false
-          skip_upload_tags: false
-          skip_unverification: false
-          file_encoding: "UTF-8"
-          autotranslate: false
-          mark_reviewed: false
-          format_options:
-            ignore_source_translations: false
-            ignore_target_translations: false
-            msgid_as_default: false
-            strip_placeholder_delimiters: false
-            override_file_language: false
-
+    - file: C:/Users/Lorenza/Downloads/Phrase_TSA_Test_FIles_(1)/en.yml
+      params:
+        file_format: yml
   pull:
     targets:
-      - file: "en.yml"
-        params:
-          file_format: yaml
-          locale_id: "30cfca4847bb590622aa36da301d8a5d"
-          file_encoding: "UTF-8"
-          format_options:
-            ignore_source_translations: false
-            ignore_target_translations: false
-            msgid_as_default: false
-            strip_placeholder_delimiters: false
-            override_file_language: false
+    - file: C:/Users/Lorenza/Downloads/Phrase_TSA_Test_FIles_(1)/en.yml
+      params:
+        file_format: yml
