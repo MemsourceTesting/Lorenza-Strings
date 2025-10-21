@@ -1,0 +1,1782 @@
+{
+  "accountDetails": {
+    "consentsHeader": "Consents",
+    "deleteAccountBottomSheet": {
+      "actions": [
+        "This action is <span>permanent and irreversible.</span>",
+        "You'll <span>lose all access to your AirHelp account.</span>",
+        "Any <span>AirHelp+ plans will be canceled</span>.\n Subscriptions are non-refundable.",
+        "You <span>won't be able to view</span> any past or current <span>claims</span> through your account.*"
+      ],
+      "cancel": "Go back",
+      "confirm": "Yes, delete permanently",
+      "info": "**We'll still contact you about any open claims.",
+      "title": "Permanently delete your account?"
+    },
+    "deleteAccountCta": "Delete your account",
+    "deleteAccountSuccess": "Account deletion in progress",
+    "editCta": "Edit",
+    "emailHelperText": "Contact customer support to change your email",
+    "formHeader": "Your details",
+    "header": "Account settings",
+    "logOutCta": "Log out",
+    "logoutSuccess": "You've been logged out",
+    "selectTermsConsent": "I agree to <termsLink>AirHelp's Terms & Conditions</termsLink>, <privacyLink>Privacy Statement</privacyLink>, <disruptionTermsLink>Disruption Insurance T&Cs</disruptionTermsLink>, and <luggageTermsLink>Luggage Insurance T&Cs</luggageTermsLink>."
+  },
+  "affiliateOffers": {
+    "section": {
+      "header": "Your AirHelp+ perks"
+    }
+  },
+  "ahPlusBanner": {
+    "subTitle": "Secure your flights, luggage, and get lounge access.",
+    "title": "Protect your future trips with AirHelp+"
+  },
+  "ahplusLandingPage": {
+    "carousel": {
+      "carouselItem1": {
+        "description": "Get up to {{value}} in fast payouts on top of airline compensation!",
+        "title": "Fast payouts"
+      },
+      "carouselItem2": {
+        "description": "We never charge a service fee so you keep 100% of the compensation.",
+        "title": "100% of your compensation"
+      },
+      "carouselItem3": {
+        "description": "Relax in an airport lounge when your flight's delayed 1 hour or more. Valid for 3 months.",
+        "title": "{{value}} lounges"
+      }
+    },
+    "description": "Perfect for business and leisure",
+    "faq": {
+      "cta": "Frequently Asked Questions",
+      "items": [
+        {
+          "title": "What's a trip?",
+          "text": "A trip is a set of flights booked for 1 travel occasion, whether for business or leisure. It can include multiple stops and connecting flights along the way.\n\n<emphasizedBlue>Example:</emphasizedBlue>  <span>Paris → Rome → Madrid → Paris  =  1 trip</span>"
+        },
+        {
+          "title": "When should I add a trip?",
+          "text": "Make sure to add trips at least 48 hours before your scheduled departure. Your plan size determines the number of trips protected by your AirHelp+ benefits."
+        },
+        {
+          "title": "How long is my plan valid?",
+          "text": "Your membership is valid for 12 months from purchase and includes disruption, luggage, and missed connection insurance for first {{count}} trips. Your other discounts and perks still apply all year round!"
+        },
+        {
+          "title": "What's a trip?",
+          "text": "A trip is a set of flights booked for 1 travel occasion, whether for business or leisure. It can include multiple stops and connecting flights along the way.\n\n<emphasizedBlue>Example:</emphasizedBlue>  <span>Miami → Dallas → Boston → Miami  =  1 trip</span>"
+        }
+      ]
+    },
+    "perksAllYearHeader": "What you'll get all year",
+    "perksHeader": "What you'll get for each of <span>{{count}} trips</span>",
+    "perksHeaderUsOffer": "What you'll get for each of <span>{{count}} domestic or international trips</span>",
+    "perksInternationalTripsHeader": "What you’ll get for international trips",
+    "subtitle": "Trusted by {{value}} million passengers",
+    "title": "Year-round protection\nfor your trips"
+  },
+  "airportLocalTime": {
+    "description": "Local airport times. Based on 3rd party data. Double-check the flight status with your airline."
+  },
+  "airStats": {
+    "aircrafts": "Aircrafts",
+    "bottomSheet": {
+      "buttonLabel": "Log in or sign up",
+      "description": "Check out your total miles flown, the countries you've visited, and other fun travel insights.",
+      "title": "View your flight stats"
+    },
+    "compensationLabel": "earned from Airhelp",
+    "countriesCount": "{{count}} country",
+    "countriesCount_plural": "{{count}} countries",
+    "flights": "{{count}} flight",
+    "flights_plural": "{{count}} flights",
+    "mostFlownAircraft": "Most flown aircraft",
+    "taken": "Taken",
+    "timeInAir": "Time in the air",
+    "topBar": {
+      "title": "My AirHelp flight stats"
+    },
+    "traveled": "Traveled",
+    "types": "{{count}} type",
+    "types_plural": "{{count}} types",
+    "visited": "Visited",
+    "visitedCountries": "countries visited"
+  },
+  "barcodeScanner": {
+    "errors": {
+      "noFlightsFound": "We couldn't find any flights matching this barcode. Please try again.",
+      "permissionCta": "Update settings",
+      "permissionDescription": "This enables you to scan and upload documents like\n boarding passes faster.",
+      "permissionTitle": "Allow camera access"
+    },
+    "placeBarcodeInFrame": "Center the barcode within the frame to scan",
+    "title": "Scan boarding pass"
+  },
+  "calendar": {
+    "fullWeekdays": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "weekdays": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+  },
+  "checkoutPlanDetailsBottomSheet": [
+    {
+      "header": "What you'll get for {{count}} trips",
+      "headerUsOffer": "What you'll get for {{count}} domestic or international trips",
+      "items": [
+        "{{value}} when your flight's disrupted",
+        "{{value}} when you miss a connecting flight",
+        "{{value}} when your luggage is lost or delayed",
+        "Lounge access during a disruption"
+      ]
+    },
+    {
+      "header": "What you'll get all year",
+      "items": [
+        "Up to {{value}} compensation — no service fee taken!",
+        "24/7 dedicated support",
+        "Travel discounts & benefits"
+      ]
+    },
+    {
+      "header": "What you’ll get for international trips",
+      "items": ["Up to {{value}} compensation – no service fee taken! "]
+    }
+  ],
+  "claimDetails": {
+    "additionalInfo": {
+      "header": "Did your info change?",
+      "subheader": "If you want to change the details of this claim or have a question, please contact our <Link>customer support.</Link>"
+    },
+    "claimId": {
+      "claimId": "Claim ID:",
+      "success": "Claim ID copied!"
+    },
+    "claimStatus": {
+      "currentStep": "Current step",
+      "detailsCta": "See detailed status info",
+      "header": "Claim status",
+      "nextPossibleStep": "Next possible step",
+      "pastStep": "Past step"
+    },
+    "claimStatusHistory": {
+      "header": "Claim status"
+    },
+    "overview": {
+      "disruption": {
+        "delay": "Delay at\nfinal destination",
+        "expenses": "Extra expenses",
+        "luggage": "Luggage issues",
+        "title": "Disruption",
+        "type": "Disruption\ntype"
+      },
+      "passenger": {
+        "labels": {
+          "address": "Address",
+          "email": "Email",
+          "minor": "Minor",
+          "phoneNumber": "Phone number"
+        },
+        "title": "Passenger details",
+        "type": {
+          "claimant": "Main passenger",
+          "fellow": "Fellow passenger"
+        }
+      },
+      "title": "Claim overview"
+    },
+    "uploadedFiles": {
+      "missingDocuments": {
+        "description": "Upload all missing documents to continue claim processing.",
+        "title": "Upload missing documents"
+      },
+      "othersTitle": "Other passenger's documents",
+      "state": {
+        "accepted": "Accepted",
+        "missing": "Missing",
+        "rejected": "Rejected",
+        "waiting_for_review": "Waiting for approval"
+      },
+      "title": "Uploaded documents"
+    }
+  },
+  "claims": {
+    "air-luggage": {
+      "noEligibleTripBottomSheet": {
+        "button": "Got it",
+        "content": "Only trips protected with AirHelp+ can be eligible for\npayout. Trips must be added to AirHelp+ at least 48h\nbefore departure in order to be protected.\n\nGo to <span>My AirHelp+</span> in your <span>Profile</span> to view the details\n of your membership.",
+        "title": "Why isn't my trip showing up?"
+      },
+      "noEligibleTrips": {
+        "content": "Only trips protected with AirHelp+ can be eligible for\npayout. Trips must be added to AirHelp+ at least 48h\nbefore departure in order to be protected.\n\nGo to <span>My AirHelp+</span> in your Profile to view the details\n of your membership.",
+        "title": "You don't have any protected trips left"
+      },
+      "selectTripList": {
+        "cta": "Why isn't my trip showing up?"
+      },
+      "tripSelection": {
+        "headerTitle": "Select trip",
+        "subheader": "Luggage claim"
+      }
+    },
+    "boardingPassScreen": {
+      "accordions": [
+        {
+          "title": "Why should I provide this document?",
+          "text": "Airlines require this document as proof that you were present on your flight."
+        },
+        {
+          "title": "How can I ensure it's accepted?",
+          "text": "A boarding pass should have your name, flight info, and booking number on it, along with a scan code."
+        },
+        {
+          "title": "What if I received it digitally?",
+          "text": "Download it as a PDF or screenshot it, then upload it as a document."
+        },
+        {
+          "title": "What if I have a printed document?",
+          "text": "You can scan the document or take a picture of it with your mobile phone or camera."
+        }
+      ],
+      "description": "This digital or printed document allows you to board the flight.",
+      "title": "Boarding pass"
+    },
+    "bookingConfirmationScreen": {
+      "accordions": [
+        {
+          "title": "Why should I provide this document?",
+          "text": "Airlines require this document as proof that you were present on your flight."
+        },
+        {
+          "title": "How can I ensure it's accepted?",
+          "text": "Make sure it contains your name, the airline name, all flights and dates, and the booking reference number (usually 5 or 6 characters) or e-ticket number."
+        },
+        {
+          "title": "How do I find it?",
+          "text": "You can find it in your email inbox, the airline website, or on their app. It could also be in your mobile wallet."
+        }
+      ],
+      "description": "This document proves you purchased a seat on the disrupted flight.",
+      "title": "Booking confirmation"
+    },
+    "claimAirLuggageUpsellBottomSheet": {
+      "buttons": {
+        "primary": "View plans",
+        "secondary": "Maybe later"
+      },
+      "checkpoints": [
+        "{{value}} when your flight's disrupted",
+        "{{value}} when you miss a connecting flight",
+        "{{value}} when your luggage gets lost or delayed",
+        "Lounge comfort during a disruption",
+        "Up to {{value}} compensation — no service fee taken!",
+        "Up to {{value}} compensation for international trips - no service fee taken! "
+      ],
+      "description": "Protect future trips with AirHelp+",
+      "title": "Get {{value}} for lost or delayed luggage with AirHelp+"
+    },
+    "claimCard": {
+      "compensation": {
+        "title": "Up to"
+      },
+      "disruption": {
+        "cancelled": "Canceled Flight",
+        "delayed": "Delayed Flight",
+        "diverted": "Diverted Flight",
+        "luggage_issues": "Lost or delayed luggage",
+        "missed_connection": "Missed Connection",
+        "overbooked": "Overbooked Flight",
+        "potentially_missed_connection": "Missed Connection",
+        "unknown": "Unknown disruption"
+      },
+      "potential": {
+        "buttonLabel": "Submit this claim",
+        "title": "Potential Claim"
+      },
+      "type": {
+        "airluggage": "Luggage insurance",
+        "airpayout": "Disruption insurance",
+        "disruption": "Disruption",
+        "missed_connection": "Missed Connection",
+        "potential": "Disruption"
+      }
+    },
+    "claimDeleteBottomSheet": {
+      "cancel": "Back to claim",
+      "confirm": "Delete",
+      "subtitle": "Anything you've entered so far will be lost.",
+      "title": "Delete this claim?"
+    },
+    "claimMissedConnectionUpsellBottomSheet": {
+      "buttons": {
+        "primary": "View plans",
+        "secondary": "Maybe later"
+      },
+      "checkpoints": [
+        "{{value}} when your flight's disrupted",
+        "{{value}} when you miss a connecting flight",
+        "{{value}} when your luggage gets lost or delayed",
+        "Lounge comfort during a disruption",
+        "Up to {{value}} compensation — no service fee taken!",
+        "Up to {{value}} compensation for international trips - no service fee taken! "
+      ],
+      "description": "Apply insurance for your future trips",
+      "title": "Get {{value}} for a missed connection with AirHelp+"
+    },
+    "claimsScreen": {
+      "buttonLabel": "Start a claim",
+      "header": "Claims"
+    },
+    "claimSummary": {
+      "bottomSheet": {
+        "list": [
+          {
+            "title": "We build a solid case",
+            "description": "Our team will gather evidence and prepare your claim for compensation."
+          },
+          {
+            "title": "We send your claim to the airline",
+            "description": "From negotiations to legal action, we manage the entire process."
+          },
+          {
+            "title": "You get compensation",
+            "description": "Once the airline pays, we'll request your payment details and transfer the money to you."
+          }
+        ],
+        "title": "What's next?"
+      },
+      "description": "We'll take care of the rest.",
+      "title": "You submitted your claim!"
+    },
+    "claimUpsellBottomSheet": {
+      "buttons": {
+        "primary": "View plans",
+        "secondary": "Maybe later"
+      },
+      "checkpoints": [
+        "{{value}} when your flight's disrupted",
+        "{{value}} when your luggage gets lost or delayed",
+        "Lounge comfort during a disruption",
+        "Up to {{value}} compensation — no service fee taken!"
+      ],
+      "description": "Become an AirHelp+ member and pay zero fees",
+      "title": "Get 100% of the compensation next time"
+    },
+    "compensation": {
+      "amountPerPassenger": "{{amount}} per passenger",
+      "button": "How's my compensation calculated?",
+      "compensationNotAvailable": "n/A",
+      "compensationSummary": "Estimated compensation",
+      "compensationUpTo": "Compensation up to",
+      "flightCompensation": "Flight Compensation",
+      "legalFee": "Legal Fee ({{value}}%)",
+      "serviceFee": "Service Fee ({{value}}%)",
+      "title": "Compensation",
+      "yourCompensation": "Your compensation"
+    },
+    "emptyState": {
+      "cards": [
+        {
+          "title": "Delayed flights",
+          "description": "Delayed 3 hours or more? You could get up to {{value}} according to air passenger rights regulations."
+        },
+        {
+          "title": "Canceled flights",
+          "description": "If your flight's canceled with less than 14 days' notice, you could get compensation on top of your refund."
+        },
+        {
+          "title": "Missed connections",
+          "description": "Get paid if you landed at your final destination 3 or more hours late through no fault of your own."
+        },
+        {
+          "title": "Unresponsive airlines",
+          "description": "Ignored by an airline? We'll check your claim's eligibility for free and hold them accountable."
+        },
+        {
+          "title": "Air passenger rights, explained",
+          "description": "We made it easy for you to learn your rights, whether in the air and on land. <Link>Explore your rights</Link>",
+          "link": "https://www.airhelp.com/en-gb/air-passenger-rights/",
+          "webViewTitle": "Air passenger rights"
+        }
+      ]
+    },
+    "fileExtInfo": "JPEG, PNG, or PDF",
+    "fileInputLabel": "Upload document",
+    "infoIdBothSidesText": "Make sure to upload both sides of your ID",
+    "infoPrivacyText": "Your data is safe with us. We follow all safety regulations including GDPR.",
+    "insufficientPermissions": "Insufficient Permissions",
+    "journeySelection": {
+      "cta": "Select disrupted flight",
+      "headerTitle": "Select route",
+      "journey": "Journey {{number}}"
+    },
+    "maxFilesLimit": "You've reached the max. limit of 10 files.",
+    "missed-connection": {
+      "noEligibleTripBottomSheet": {
+        "button": "Got it",
+        "content": "Only trips protected with AirHelp+ can be eligible for\npayout. Trips must be added to AirHelp+ at least 48h\nbefore departure in order to be protected.\n\nGo to <span>My AirHelp+</span> in your <span>Profile</span> to view the details\n of your membership.",
+        "title": "Why isn't my trip showing up?"
+      },
+      "noEligibleTrips": {
+        "content": "Only trips protected with AirHelp+ can be eligible for\npayout. Trips must be added to AirHelp+ at least 48h\nbefore departure in order to be protected.\n\nGo to <span>My AirHelp+</span> in your Profile to view the details\n of your membership.",
+        "title": "You don't have any protected trips left"
+      },
+      "selectTripList": {
+        "cta": "Why isn't my trip showing up?"
+      },
+      "tripSelection": {
+        "headerTitle": "Select trip",
+        "subheader": "missed connection claim"
+      }
+    },
+    "noOngoingClaims": {
+      "cta": "Start claim",
+      "pastClaimsCta": "View past claims · {{count}}"
+    },
+    "passengerIdentityScreen": {
+      "accordions": [
+        {
+          "title": "Why should I provide this document?",
+          "text": "We need this document to verify your information with airline records."
+        },
+        {
+          "title": "How can I ensure it's accepted?",
+          "text": "Ensure all document corners are visible. Check that the photo, date of birth, document, issue date, and signature are clear and easy to read."
+        }
+      ],
+      "description": "This document contains your vital records and proves your identity while traveling.",
+      "title": "Passport or ID"
+    },
+    "pastClaimsScreen": {
+      "header": "Past claims · {{count}}"
+    },
+    "permissionsDescription": {
+      "camera": "To use this feature, please enable camera access in your device settings.",
+      "mediaLibrary": "To use this feature, please enable media library access in your device settings."
+    },
+    "questionnaireBottomSheet": {
+      "description": "Anything you've entered so far will be lost.",
+      "leave": "Leave",
+      "title": "Leave this claim?"
+    },
+    "saveErrorBottomSheet": {
+      "buttonLabel": "OK",
+      "description": "We're sorry for the trouble - please try again.",
+      "title": "Oops! There was a problem processing your request."
+    },
+    "startSubmissionBottomSheet": {
+      "disruptionClaim": {
+        "description": "Get up to <span>{{value}}</span> compensation for disruptions",
+        "title": "Start flight disruption claim"
+      },
+      "luggageIssuesPayout": {
+        "description": "Receive <span>{{value}}</span> for lost or damaged luggage",
+        "title": "Start luggage claim"
+      },
+      "missedConnectionPayout": {
+        "description": "Miss a connecting flight? Get <span>{{value}}</span>",
+        "title": "Start missed connection claim"
+      },
+      "startFromExistingTrip": {
+        "description": "Submit a claim for a flight in a saved trip",
+        "title": "Start from existing trip"
+      },
+      "startFromScratch": {
+        "description": "Submit a claim for a flight not saved in your trips",
+        "title": "Start without existing trip"
+      }
+    },
+    "subtitle": "New Claim",
+    "title": "Upload documents ({{current}}/{{total}})",
+    "tripCreator": {
+      "actionLabel": "Continue",
+      "errors": {
+        "addFlights": "Add flights to continue."
+      },
+      "title": "Disrupted route"
+    },
+    "tripSelection": {
+      "headerTitle": "Select trip"
+    },
+    "tutorial": {
+      "title": "Knowledge is power"
+    },
+    "uploadBottomSheet": {
+      "camera": "Take a photo",
+      "file": "Browse a file",
+      "mediaLibrary": "Choose from Camera Roll"
+    },
+    "uploadDocumentsSkipBottomSheet": {
+      "description": "Providing all of your documents is essential for winning your claim.",
+      "title": "Skip this step?"
+    },
+    "uploadRequirement": "Upload the required documents before saving"
+  },
+  "common": {
+    "accept": "Accept",
+    "ahPlusAlreadyActive": "You have AH+ subscription already.",
+    "airline": "Airline",
+    "apply": "Apply",
+    "arriving": "Arriving",
+    "back": "Back",
+    "bookingReference": "Booking reference",
+    "cancel": "Cancel",
+    "clear": "Clear",
+    "close": "Close",
+    "continue": "Continue",
+    "copy": "Copy",
+    "date": "Date",
+    "delete": "Delete",
+    "details": "Details",
+    "disable": "Disable",
+    "duration": {
+      "days": "{{count}}d",
+      "hour": "{{count}}h",
+      "minute": "{{count}}min",
+      "minuteShort": "{{count}}m"
+    },
+    "edit": "Edit",
+    "flight": "Flight",
+    "flightNumber": "Flight number",
+    "from": "From",
+    "fromDate": "From {{from}}",
+    "getAhPlus": "Get AirHelp+",
+    "goBack": "Go back",
+    "goToSettings": "Go to Settings",
+    "heyThere": "Hey there!",
+    "heyWithName": "Hey {{name}}!",
+    "leave": "Leave",
+    "loadingData": "Loading data",
+    "modify": "Modify",
+    "no": "No",
+    "notice": {
+      "description": "All entered data will be lost",
+      "title": "Do you want to leave?"
+    },
+    "ok": "OK",
+    "oneMoment": "One moment please...",
+    "refresh": "Refresh",
+    "remove": "Remove",
+    "review": "Review and save",
+    "route": "Route",
+    "routeCount": "Route {{count}}",
+    "save": "Save",
+    "saveAndContinue": "Save and continue",
+    "saveChanges": "Save changes",
+    "seeDetails": "See details",
+    "sendMessage": "Send message",
+    "share": "Share",
+    "shareSticker": "Share sticker",
+    "show": "Show",
+    "showLess": "Show less",
+    "showMore": "Show more",
+    "skip": "Skip",
+    "stay": "Stay",
+    "stepOneOf": "Step {{current}} of {{total}}",
+    "time": "Time",
+    "to": "To",
+    "toDate": "To {{to}}",
+    "yes": "Yes",
+    "or": "or"
+  },
+  "commonErrors": {
+    "cameraRollPermissionDenied": "We couldn't open camera roll - permission denied.",
+    "departureOverlapsWithDifferentTrip": "Some flights overlap with another trip assigned to you as a passenger. Choose 'I'm just tracking' to save.",
+    "fileNotAllowed": "Invalid file format. Please upload a JPG, PNG, or PDF file.",
+    "fileSizeTooLarge": "The file is too large. Please upload one under {{limit}} MB.",
+    "genericError": "Oops! Something went wrong. Please try again.",
+    "networkError": "Check your internet connection and try again.",
+    "serverError": "Something went wrong on our end. Please try again.",
+    "somethingWentWrong": "Oops! Something went wrong",
+    "tryAgainLater": "We're on it. Until then, refresh or try again later.",
+    "validationErrorIncorrectValue": "Incorrect format.",
+    "validationErrorInvalidType": "Incorrect format.",
+    "validationErrorMissing": "Enter your {{ fieldName }}."
+  },
+  "consent": {
+    "agreeToAll": "Agree to all",
+    "disruptionTermsUrlHeader": "Disruption Insurance T&Cs",
+    "finishSignUpDisclaimer": "Finish sign-up by agreeing to our required terms and selecting your promotional preferences.",
+    "luggageTermsUrlHeader": "Luggage Insurance T&Cs",
+    "privacyUrlHeader": "Privacy Statement",
+    "selectPromotionsConsent": "I'd like to receive future promotions and product updates sent to my email address <optional>(optional)</optional>.",
+    "selectTermsConsent": "I agree to <termsLink>AirHelp's Terms & Conditions</termsLink>, <privacyLink>Privacy Statement</privacyLink>, <disruptionTermsLink>Disruption Insurance T&Cs</disruptionTermsLink>, and <luggageTermsLink>Luggage Insurance T&Cs</luggageTermsLink>.",
+    "submit": "Continue",
+    "termsRequiredError": "Accepting this consent is required",
+    "termsUrlHeader": "Terms and Conditions",
+    "title": "Complete sign-up"
+  },
+  "countryCode": {
+    "AC": "Ascension Island",
+    "inputPlaceholder": "Search country",
+    "TA": "Tristan da Cunha",
+    "title": "Country code"
+  },
+  "dashboardClaimBanner": {
+    "subtileWithoutCityName": "Start a claim for your disrupted flight for free now.",
+    "subtitleWithCityName": "Start a claim for your disrupted flight to {{city}} for free now.",
+    "subtitleWithCompensation": "Start a claim for free to check if you qualify for up to {{compensation}} per trip.",
+    "titlePlural": "You had {{count}} disrupted trip",
+    "titlePlural_plural": "You had {{count}} disrupted trips",
+    "titleWithCompensation": "You may qualify for up to {{compensation}} compensation"
+  },
+  "disruptions": {
+    "header": {
+      "subTitle": "Start a claim and get the money!",
+      "title": "Get up to {{compensation}}\ncompensation"
+    }
+  },
+  "flightCard": {
+    "airline": "Airline",
+    "boardingPass": "Boarding pass",
+    "customFlight": "Manual flight",
+    "flightIndex": "Flight {{number}} of {{count}}",
+    "flightStatuses": {
+      "canceled": "canceled",
+      "cancelled": "canceled",
+      "delayed": "delay",
+      "delayedWithTime": "{{delay}} delay",
+      "diverted": "diverted",
+      "landed": "landed",
+      "landed_delayed": "landed",
+      "landed_diverted": "diverted",
+      "on_time": "on time",
+      "ongoing": "in air"
+    },
+    "gate": "Gate",
+    "locationUnavailable": " Location\nUnavailable",
+    "luggageClaim": "Luggage claim at belt",
+    "showOnMap": "Show on map",
+    "terminal": "Terminal",
+    "unknownAircraft": "Unknown\naircraft"
+  },
+  "flightCardv2": {
+    "delay": "{{value}} delay",
+    "diverted": "This flight has been diverted",
+    "early": "{{value}} early",
+    "flightPhase": {
+      "cancelled": "Canceled",
+      "in_gate": "Landed",
+      "landed": "Landed",
+      "ongoing": "In flight",
+      "out_gate": "In flight",
+      "unknown": "Unknown",
+      "upcoming": "Upcoming"
+    },
+    "locationButton": {
+      "locationUnavailable": "Location\nUnavailable",
+      "showOnMap": "Show on map",
+      "whereIsMyPlane": "Where's my plane?"
+    },
+    "manualFlight": "Manual flight",
+    "moveToRoute": "Move to Route {{number}}",
+    "onTime": "On time",
+    "roundTripInfo": "This destination matches your first departure. If it’s a return flight, move it to the next route."
+  },
+  "flightImport": {
+    "addAccount": "Add another Gmail account",
+    "bottomSheet": {
+      "availablity": {
+        "description": "If we can’t find your flights in our database, you can add them manually.",
+        "title": "Some flights may not sync"
+      },
+      "disableSync": {
+        "calendar": "Disable calendar import?",
+        "descriptionCalendar": "We'll stop importing trips from your calendar from now on if you choose to disable.",
+        "email": "Are you sure you want to disable Email synchronization?",
+        "emailAccount": "Are you sure you want to remove this email?",
+        "emailAccountDescription": "We will stop synchronizing your flights from {{email}}.",
+        "emailCheckpoints": [
+          "All of your emails will be disconnected",
+          "Flights will no longer be synchronized"
+        ]
+      },
+      "synchronization": {
+        "description": "Your itineraries will appear in your trips shortly.",
+        "title": "Syncing can take a few minutes"
+      }
+    },
+    "calendarAlert": {
+      "cancel": "Don’t Allow",
+      "confirm": "Go to Settings",
+      "description": "Turn on automatic imports for all your flight itineraries.",
+      "title": "“AirHelp” would like to access the Calendar"
+    },
+    "calendarsConnected": "<dot>•</dot> Your calendar is connected",
+    "enableCalendarSync": "Calendar",
+    "enableEmailSync": "Gmail inbox",
+    "infoHeader": {
+      "description": "Automatically sync all your flights with your calendar and email - no manual entry needed.",
+      "title": "Stay synced without lifting a finger"
+    },
+    "integrationSettings": "Integration settings",
+    "integrationStatus": "Integration status",
+    "sectionHeader": "PERMISSIONS",
+    "sectionHeaderSyncEnabled": "Choose what to import",
+    "subtitle": "Import flights",
+    "switchAccount": "Switch account",
+    "syncIsRunning": "Import enabled",
+    "syncIsRunningDescription": "Your past, present, and future flights will automatically import to your trips. <button>Flights not showing up?</button>",
+    "title": "Settings"
+  },
+  "flightSearch": {
+    "addFaster": {
+      "exportFromWallet": "Add flight from Wallet",
+      "flightAddedSuccessfully": "Flight added successfully",
+      "importCellBadge": "fastest",
+      "importCellSubTitle": "We'll automatically import flights for you",
+      "importCellTitle": "Import calendar or Gmail inbox",
+      "importCellTitleCalendarOnly": "Calendar sync",
+      "scanCellTitle": "Scan boarding pass",
+      "title": "Add faster"
+    },
+    "exportFromWalletTutorial": {
+      "button": "Go to Wallet",
+      "cta1": "Tap on your boarding pass in the Apple Wallet app",
+      "cta2": "Select the Share icon",
+      "cta3": "Continue in AirHelp App",
+      "headline": "Add your boarding pass \nfrom Apple Wallet"
+    },
+    "flight": "Flight",
+    "header": {
+      "claim": {
+        "subtitle": "New Claim"
+      }
+    },
+    "label": {
+      "airline": "<span>Enter</span> airline",
+      "all": "<span>Enter your</span> flight number, departure city, <span>or</span> airline",
+      "arrival": "<span>Enter</span> arrival city",
+      "departure": "<span>Enter</span> departure city",
+      "departure_date": "<span>Enter</span> date of the flight",
+      "flight_number": "<span>Enter</span> date of the flight",
+      "manual_airline": "<span>Enter</span> airline",
+      "manual_flight_number": "<span>Enter</span> flight number",
+      "selectFlight": "Select your flight"
+    },
+    "placeholder": {
+      "AIRLINE": "e.g. Lufthansa",
+      "ALL": "e.g. FR1234, Rome, Lufthansa",
+      "ARRIVAL": "e.g. Rome",
+      "DEPARTURE": "e.g. Rome",
+      "FLIGHT_NUMBER": "e.g. FR1234",
+      "MANUAL_AIRLINE": "e.g. Lufthansa",
+      "MANUAL_FLIGHT_NUMBER": "e.g. FR1234"
+    },
+    "results": {
+      "checkData": "Check your search entry. If your flight doesn't appear, you can add it yourself.",
+      "enterFlightDetailsManually": "Enter flight details manually",
+      "flightNotOnList": "Can't find your flight?",
+      "flightSearchNoResults": {
+        "subtitle": "Check your entry and try again. ",
+        "subtitleManualFlightNumber": "Please include both the airline code and flight number (e.g. FR1234).",
+        "title": "We couldn't find what you searched for",
+        "titleManualFlightNumber": "Invalid format"
+      },
+      "flightSomeOnList": "Don't see your flight?",
+      "headline": "Results"
+    },
+    "searchChip": {
+      "AIRLINE": "Airline",
+      "ARRIVAL": "Arrival city",
+      "DEPARTURE": "Departure city",
+      "FLIGHT_NUMBER": "Flight number"
+    },
+    "searchLabel": "Departure airline or flight number",
+    "suggestions": "Suggestions"
+  },
+  "flightsMap": {
+    "reCentre": "Re-centre"
+  },
+  "flightTracking": {
+    "bottomSheetOptions": {
+      "createTripSubTitle": "Keep your flight information for upcoming trips all in one place.",
+      "createTripTitle": "Add to my trips",
+      "reportSubTitle": "Check if you can get compensation for canceled, delayed, or overbooked flights.",
+      "reportTitle": "Report a disruption",
+      "trackFlightSubTitle": "Get live updates every step of the way from before takeoff until after landing.",
+      "trackFlightTitle": "Track this flight"
+    },
+    "flightDetailsHeader": "Flight to {{name}}",
+    "subtitle": "Track flights",
+    "title": "Add a flight",
+    "trackedFailed": "There was an issue with tracking this flight",
+    "trackedSuccessfully": "Flight tracked successfully"
+  },
+  "fraud": {
+    "snackbar": "Your account has been restricted. Contact customer support for more information."
+  },
+  "helpSupport": {
+    "chatCta": "Chat",
+    "chatDesc": "Get help anytime you need it",
+    "feedbackAndSuggestionsCta": "Feedback & Suggestions",
+    "feedbackAndSuggestionsDesc": "Share your thoughts to help us improve the app",
+    "helpCenterCta": "Help Center & FAQ",
+    "helpCenterUrl": "https://www.airhelp.com/en/air-passenger-rights/#commonly-asked-questions",
+    "title": "Help & Support"
+  },
+  "importFromWallet": {
+    "chooseType": "What flight is this?",
+    "connectingFlight": "Connecting flight",
+    "description": "If there are more flights for this trip in your Wallet, go back there to import them.",
+    "dismissButtonLabel": "Stay here",
+    "errors": {
+      "failedToAddFlight": "Sorry, we weren’t able to add this flight"
+    },
+    "goToWalletButtonLabel": "Add more flights from Wallet",
+    "returnFlight": "Return flight or another destination",
+    "tilteChooseType": "You're about to add this flight to your trip:",
+    "titleMultiple": "Flights added",
+    "titleSingle": "Flight has been added to your trip"
+  },
+  "inputs": {
+    "email": "Email",
+    "feedback": "Feedback",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "password": "Password",
+    "phoneNumber": "Phone number"
+  },
+  "language": "Language",
+  "login": {
+    "or": "or",
+    "loginAction": "Log in",
+    "continueWithEmail": "Continue with Email",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithFacebook": "Continue with Facebook",
+    "continueWithMicrosoft": "Continue with Microsoft",
+    "continueWithApple": "Continue with Apple",
+    "headerTitle": "Log in or sign up"
+  },
+  "loungePass": {
+    "expiresOn": "Expires on {{date}}",
+    "header": "Lounge pass details",
+    "passHolder": "Pass holder:",
+    "title": "You can use this pass only once"
+  },
+  "lounges": {
+    "faq": {
+      "items": [
+        {
+          "title": "How do I get lounge access?",
+          "text": "As an AirHelp+ member, you'll gain lounge access when your flight's delayed over 1 hour or canceled less than 6 hours before departure. The number of trips covered varies depending on the plan purchased."
+        },
+        {
+          "title": "Can I add my trip at any time to get a lounge pass when my flight is delayed or canceled?",
+          "text": "Unfortunately, no. Your trip has to have been added to your AirHelp+ dashboard at least 48 hours before the scheduled departure time of your flight."
+        },
+        {
+          "title": "Can I use a lounge with a fellow passenger?",
+          "text": "Lounge passes are personalised to your name so only apply to you. If fellow passengers have AirHelp+, they can access lounges with their own pass."
+        },
+        {
+          "title": "Can I use the pass more than once?",
+          "text": "Passes are for 1 use only, so once you've entered a lounge, you've used your pass."
+        },
+        {
+          "title": "What happens if I don't use a pass?",
+          "text": "You have 3 months to enjoy your pass at any airport in our directory. If you don't use it within 3 months, the pass expires and cannot be used."
+        },
+        {
+          "title": "Can I use a lounge that's not in the lounge finder?",
+          "text": "No, sorry. You can only use the lounges that appear in our lounge finder."
+        }
+      ],
+      "title": "frequently asked questions"
+    },
+    "list": {
+      "noPassesSubtitle": "As a member of AirHelp+ you'll get a free lounge pass when your flight is disrupted",
+      "noPassesTitle": "You don't have any passes yet",
+      "passSubtitle": "Expires on {{date}}",
+      "passTitle": "Lounge pass: {{name}}",
+      "title": "Your lounge passes",
+      "warning": "Passes are for 1 use only"
+    },
+    "loungeDetails": {
+      "additionalInfo": "Additional info",
+      "conditions": "Conditions",
+      "location": "Location",
+      "openingHours": "Opening hours",
+      "viewYourLoungePass": "View your lounge pass",
+      "viewYourLoungePasses": "View your lounge passes"
+    },
+    "loungesList": {
+      "availableLounges": "Available lounges",
+      "header": "{{code}} · {{name}}",
+      "loungesSearchNotFound": {
+        "subtitle": "We're sorry, the airport you selected doesn't offer a lounge in our network.",
+        "title": "Airport lounge unavailable"
+      },
+      "subheader": "Lounge finder"
+    },
+    "providedBy": "Provided by:",
+    "searchCta": {
+      "description": "Discover over {{value}} lounges in our network worldwide",
+      "title": "Search airport lounges"
+    },
+    "searchScreen": {
+      "header": "Search airport lounges",
+      "inputLabel": "Search by city or airport",
+      "inputPlaceholder": "e.g. Rome, Paris Charles de Gaulle",
+      "subheader": "Lounge finder"
+    },
+    "termsAndConditions": {
+      "items": [
+        "The name on the lounge pass must match the boarding pass",
+        "Subject to availability",
+        "Fellow passengers are not permitted",
+        "QR code can be shown on a mobile device (i.e. smartphone or tablet) or the number can be manually entered",
+        "You can access all LoungeKey branded lounges"
+      ],
+      "title": "Terms & Conditions"
+    },
+    "title": "Lounges",
+    "upsell": {
+      "cta": "Explore AirHelp+",
+      "subtitle": "{{value}} million passengers have chosen to fly with AirHelp+",
+      "title": "AirHelp+ members get a free lounge pass when their flight is disrupted"
+    }
+  },
+  "manualFlightAdd": {
+    "button": "Save this flight",
+    "description": "You can enter your flight details yourself. We'll update them if they become available to us.",
+    "editHeader": "Edit search entry",
+    "editSubtitle": "Manual flight",
+    "form": {
+      "airline": "Airline",
+      "airlineHelperText": "Airline has been adjusted to the flight number.",
+      "arrivalAirport": "Arrival airport",
+      "departureAirport": "Departure airport",
+      "departureDate": "Departure date",
+      "flightNumber": "Flight number",
+      "flightNumberHelperText": "Flight number has been reset after airline change."
+    },
+    "headline": "The flight isn't in our database yet.",
+    "notice": {
+      "description": "Anything you've entered so far will be lost.",
+      "title": "Are you sure you want to go back?"
+    },
+    "title": "Add a flight manually"
+  },
+  "notifications": {
+    "banners": {
+      "claimDetails": {
+        "default": "Get instant updates about your claim's status."
+      },
+      "flightTrackingDetails": {
+        "default": "Never miss an important update about your trip!",
+        "withPotentialClaim": "Get the latest updates on the flight you're tracking."
+      },
+      "import": {
+        "default": "Get instant updates when your imported flights show up in the app."
+      },
+      "tripDetails": {
+        "default": "Never miss an important update about your trip!",
+        "withPotentialClaim": "Get the latest updates on the flight you're tracking."
+      }
+    },
+    "cta": {
+      "default": "Turn on notifications.",
+      "withPotentialClaim": "Turn on free notifications"
+    }
+  },
+  "offline": {
+    "snackbar": {
+      "message": "Check your internet connection and retry.",
+      "title": "Looks like you're offline"
+    }
+  },
+  "online": {
+    "snackbar": {
+      "message": "You're back online - data updated"
+    }
+  },
+  "payments": {
+    "addDiscountCode": "Enter promo code",
+    "checkoutScreen": {
+      "servicesLink": {
+        "label": "Read the full list of <Link>AirHelp+ Services</Link> included in this membership",
+        "link": "https://www.airhelp.com/en-gb/airhelp-plus-terms/",
+        "webViewTitle": "AirHelp+ Services"
+      },
+      "title": "Checkout"
+    },
+    "chooseCurrencyScreen": {
+      "title": "Choose currency"
+    },
+    "confirmationScreen": {
+      "completingPurchase": "Completing purchase",
+      "paymentProcessing": "Payment information\nwill be processed securely"
+    },
+    "dataCollectingFirstLastNameScreen": {
+      "formDescription": "These are required to validate your travel insurance.",
+      "formTitleConfirm": "Confirm your personal details",
+      "formTitleProvide": "Provide your personal details",
+      "submitButton": "Save & Continue",
+      "title": "You’re almost set!"
+    },
+    "dataCollectingPhoneNumberScreen": {
+      "formDescription": "We'll use it to send you QR codes for lounge access.",
+      "formTitleConfirm": "Confirm your phone number",
+      "formTitleProvide": "Add your phone number"
+    },
+    "discountCode": "Promo code",
+    "discountCodeIsInvalid": "This promo code isn't valid",
+    "discountPercentage": "{{value}}% discount",
+    "errorScreen": {
+      "paymentError": "We couldn't process your payment. Please verify\nyour payment method and try again.",
+      "returnToCheckout": "Back to checkout"
+    },
+    "payNow": "Subscribe for {{value}}/month",
+    "payNowAnnually": "{{value}}/year. Billed annually.",
+    "stripeWidget": {
+      "billingAgreement": "You will be charged {{priceWithCurrency}} for 12 months of {{productName}}. The plan automatically renews annually. To cancel anytime, go to \"Manage Subscription\" in your account.",
+      "description": "You will be charged {{priceWithCurrency}} for 12 months of {{productName}}."
+    },
+    "subscribeForAnnually": "{{price}} billed annually",
+    "subscribeForMontly": "<span>{{price}}</span> / month",
+    "successScreen": {
+      "backToClaims": "Go to Claims",
+      "backToTripCreator": "Back to trip creator",
+      "backToTrips": "Go to Dashboard",
+      "description": "Ready for takeoff! ✈️",
+      "descriptionWithTrips": "{{count}} of your trips is now protected!",
+      "descriptionWithTrips_plural": "{{count}} of your trips are now protected!",
+      "title": "Welcome to AirHelp+"
+    },
+    "summary": "Summary",
+    "summaryScreen": {
+      "coverage": "annual membership"
+    },
+    "total": "Total"
+  },
+  "perks": {
+    "airhelpPro": "AirHelp<icon/> Pro",
+    "airhelpSmart": "AirHelp<icon/> Smart",
+    "firstSectionHeader": "What you'll get for {{count}} trips",
+    "items": [
+      {
+        "name": "<span>{{value}}</span> when your flight's disrupted",
+        "detailsHeader": "{{value}} when your flight's\ndisrupted",
+        "detailsDescription": "It's easy. We track your flight, let you know when you're eligible, and then quickly pay you {{value}} if:\n\n<li>  •   Your flight’s delayed by 3+ hours on arrival\n</li><li>  •   Your flight’s canceled within 28 days of departure\n</li><li>  •   Your flight’s diverted\n</li>\nThe best thing? That {{value}} payout is on top of any airline compensation you’re owed. No paperwork, no signature - just fast payouts straight to your bank account."
+      },
+      {
+        "name": "<span>{{value}}</span> when you miss a connecting flight",
+        "detailsHeader": "{{value}} when you miss a\nconnecting flight",
+        "detailsDescription": "When your first flight is delayed, canceled, or diverted, and you miss a connection, we’ll give you a fast {{value}} payout to help with the hassle.\n\nJust send us your flight details, a proof of the delay, and your boarding passes, and your payout will be on the way.\n\nHeads up: your flights must be part of the same booking to qualify for this insurance."
+      },
+      {
+        "name": "<span>{{value}}</span> when your luggage is lost or delayed",
+        "detailsHeader": "{{value}} when your luggage is\nlost or delayed",
+        "detailsDescription": "It’s simple. If your luggage gets delayed or lost, we’ll pay you {{value}}.\n\nJust grab a Property Irregularity Report (PIR) from the airport’s lost luggage desk and send us what we need. Then your {{value}} payout is on its way. And it’s on top of any compensation the airline might owe you, of course."
+      },
+      {
+        "name": "Lounge access during a disruption",
+        "detailsHeader": "Lounge comfort",
+        "detailsDescription": "If your flight’s delayed over 1 hour or canceled, you can relax in over {{value}}+ airport lounges worlwide.\n\nJust add your flight details in the app. If your flight’s disrupted, we’ll send you a lounge pass.\n\nLounge access dependes on availability and opening hours. If you can’t use your lounge pass immediately, it remains valid for 3 months and can be used worldwide at any supported lounge."
+      },
+      {
+        "name": "Up to {{value}} compensation from airline\n<emphasized>No service fee taken!</emphasized>",
+        "detailsHeader": "Up to {{value}} compensation from airline",
+        "detailsDescription": "We’ll claim compensation from the airline on your behalf. You keep 100% – we don’t take a cut."
+      },
+      {
+        "name": "24/7 dedicated support",
+        "detailsHeader": "24/7 dedicated support",
+        "detailsDescription": "Receive reliable help around the clock from our team of more than 400 customer service professionals."
+      },
+      {
+        "name": "Travel discounts & benefits",
+        "detailsHeader": "Travel discounts & benefits",
+        "detailsDescription": "Get discounts on travel essentials like eSIMs for reliable global internet, car rentals, and other perks."
+      },
+      {
+        "name": "Up to {{value}} airline cash compensation\n<emphasized>No service fee taken!</emphasized>",
+        "detailsHeader": "Up to {{value}} compensation from airline for EU and US-EU flights",
+        "detailsDescription": "We’ll claim compensation from the airline on your behalf for flights within the EU or between the EU and the United States. You keep 100% – we don’t take a cut."
+      }
+    ],
+    "monthsCoverage": "{{count}} month coverage",
+    "monthsCoverage_plural": "{{count}} months of coverage",
+    "secondSectionHeader": "What you'll get all year"
+  },
+  "plans": {
+    "badge": "Most popular",
+    "tripsCount": "{{count}} trips",
+    "tripsCountUsOffer": "Up to {{count}} trips",
+    "upTo": "Up to"
+  },
+  "privacy": {
+    "privacyDescription": "We only import information related to flights and adhere to all safety regulations, including GDPR. <privacyLink>Read privacy policy</privacyLink>.",
+    "title": "Data security"
+  },
+  "profile": {
+    "AHPlusCta": "My AirHelp+",
+    "AHPlusCtaWithoutSubscription": "Protect trips with AirHelp+",
+    "AHPlusCtaWithoutSubscriptionDesc": "Get payouts for flight and luggage disruptions",
+    "AHPlusDesc": "View your membership benefits",
+    "flightImportCtaCalendarOnly": "Calendar import",
+    "flightsImportCta": "Calendar or Gmail import",
+    "flightsImportDesc": "Import flights automatically from your bookings",
+    "helpSupportCta": "Help & Support",
+    "helpSupportDesc": "Find answers, send feedback, or contact us",
+    "languageSettings": "Language",
+    "loungesCta": "Lounges",
+    "loungesDesc": "You have {{count}} pass",
+    "loungesDesc_plural": "You have {{count}} passes",
+    "loungesDescHighlights": ["passes", "pass"],
+    "loungesEmptyDesc": "Enjoy access to over {{value}} lounges worldwide",
+    "privacy": "By continuing you agree to our <privacyLink>Privacy Policy</privacyLink> and <payoutTermsLink>T&Cs</payoutTermsLink>",
+    "privacySettings": "Privacy Settings",
+    "profileCta": "Account settings",
+    "profileDesc": "Update your personal details ",
+    "referralProgramCta": "Referral program",
+    "referralProgramDesc": "Receive rewards for others' successful claims",
+    "version": "App version: {{version}} ({{build}})"
+  },
+  "protections": {
+    "ahPlusBannerSubTitle": "Secure your flights, luggage, and get lounge access.",
+    "airLuggage": {
+      "details": {
+        "description": "It’s simple. If your luggage gets delayed or lost, we’ll pay you {{value}}.\n\nJust grab a Property Irregularity Report (PIR) from the airport’s lost luggage desk and send us what we need. Then your {{value}} payout is on its way. And it’s on top of any compensation the airline might owe you, of course.",
+        "title": "{{value}} when your luggage is\nlost or delayed"
+      },
+      "title": "{{value}} when your luggage is lost or delayed"
+    },
+    "airPayout": {
+      "details": {
+        "description": "It's easy. We track your flight, let you know when you're eligible, and then quickly pay you {{value}} if:\n\n<li>  •   Your flight’s delayed by 3+ hours on arrival\n</li><li>  •   Your flight’s canceled within 28 days of departure\n</li><li>  •   Your flight’s diverted\n</li>\nThe best thing? That {{value}} payout is on top of any airline compensation you’re owed. No paperwork, no signature - just fast payouts straight to your bank account.",
+        "title": "{{value}} when your flight's\ndisrupted"
+      },
+      "title": "{{value}} when your flight's disrupted"
+    },
+    "loungeAccess": {
+      "details": {
+        "description": "If your flight’s delayed over 1 hour or canceled, you can relax in over {{value}}+ airport lounges worlwide.\n\nJust add your flight details in the app. If your flight’s disrupted, we’ll send you a lounge pass.\n\nLounge access dependes on availability and opening hours. If you can’t use your lounge pass immediately, it remains valid for 3 months and can be used worldwide at any supported lounge.",
+        "title": "Lounge comfort"
+      },
+      "title": "Lounge access during a disruption"
+    },
+    "missedConnections": {
+      "details": {
+        "description": "When your first flight is delayed, canceled, or diverted, and you miss a connection, we’ll give you a fast {{value}} payout to help with the hassle.\n\nJust send us your flight details, a proof of the delay, and your boarding passes, and your payout will be on the way.\n\nHeads up: your flights must be part of the same booking to qualify for this insurance.",
+        "title": "{{value}} when you miss a\nconnecting flight"
+      },
+      "title": "{{value}} when you miss a connecting flight"
+    },
+    "title": "this trip is protected by",
+    "unavailable": "Unavailable for this trip"
+  },
+  "receiveTrip": {
+    "findInDrafts": "You can edit and save it in your drafts.",
+    "findInPastTrips": "You can now find it in your past trips.",
+    "findInTrips": "You can now find it in your trips.",
+    "findItInYourTrips": "You can now find it in your trips.",
+    "flightReceived": "Your friend shared their trip!",
+    "tripReceived": "Your friend shared their trip!"
+  },
+  "referralProgramCtaBanner": {
+    "subTitle": "Share AirHelp and earn rewards!",
+    "title": "Know anyone else affected?"
+  },
+  "referralProgramLandingPage": {
+    "cta": "Share now",
+    "faq": {
+      "items": [
+        {
+          "title": "How do I invite friends to claim with AirHelp?",
+          "text": "It's easy! As soon as you sign up, you'll receive your personalized link and QR code, which you can share with you friends via messages or social media."
+        },
+        {
+          "title": "How much do I get for sharing AirHelp with my friends?",
+          "text": "For every friend who successfully claims compensation using your link or QR code, you'll receive a {{value}} prepaid virtual gift card by email.\nThere may also be special promos where we increase the referral reward for a limited time."
+        },
+        {
+          "title": "How long is my link or QR code valid for?",
+          "text": "There's no expiration for your link and QR code. Share away!\nYou can find more information about the referral program in our <termsLink>Terms and Conditions<termsLink>."
+        },
+        {
+          "title": "How will I receive my reward if my friend files a claim?",
+          "text": "When your friend receives their compensation you will receive an email notifying you that your reward has been approved along with instructions on how to redeem your gift card. All rewards are paid out on a weekly basis.\nOnce your reward is approved, it may take up to 7 days for you to receive your gift card."
+        },
+        {
+          "title": "Is there a limit on the number of friends I can refer?",
+          "text": "You can receive rewards for up to 50 friends using your referral link or code.\nIf you want to share AirHelp with a larger audience, you should check out our Affiliate Program."
+        },
+        {
+          "title": "How do I redeem my reward?",
+          "text": "You'll receive an email with instructions on how to redeem and use your prepaid virtual gift card, which can be used online anywhere where it's accepted."
+        },
+        {
+          "title": "How long is a reward valid for?",
+          "text": "You have 30 days to activate your gift card from the day you receive it. Once activated, the card can be used immediately. The card validity varies depending on the card chosen, so be sure to check the provider's Terms and Conditions."
+        },
+        {
+          "title": "Why didn't I receive a reward even though my friend filed a claim?",
+          "text": "If your friend's claim for compensation isn't eligible, you won't receive a reward. See our <termsLink>Terms and Conditions</termsLink> for more information."
+        },
+        {
+          "title": "What if my friend has submitted an accepted claim but I didn't receive a reward?",
+          "text": "If your friend had an accepted claim with AirHelp but you didn't receive your reward, check if your friend used the correct link or QR code. They have to use your unique link or code for us to confirm your reward.\nIf it's correct and you still haven't received anything, email us at <externalLink>helpafriend@airhelp.com</externalLink>.",
+          "externalLink": "mailto:helpafriend@airhelp.com"
+        }
+      ],
+      "title": "frequently asked questions"
+    },
+    "friendsSection": {
+      "description": "Every month, thousands of air passengers are affected by flight delays and cancellations — your friends included. Help by telling them about AirHelp, and you'll get a <reward>{{value}} reward</reward> for each successful compensation claim they make.",
+      "title": "Chances are your friends have suffered a flight delay"
+    },
+    "reward": {
+      "description": "Receive a reward every time a friend gets compensated.",
+      "list": {
+        "items": [
+          "You share your link or let other person to scan your QR code.",
+          "They file a claim for flight compensation.",
+          "If their claim's successful, we'll email you a {{value}} gift card. It's that simple."
+        ],
+        "title": "How it works"
+      },
+      "title": "Get a <reward>{{value}}</reward> gift card for each successful claim."
+    },
+    "title": "Referral program"
+  },
+  "referralQRCode": {
+    "changeEmailInfo": "Contact customer support to change the credited email",
+    "ctas": {
+      "link": "Copy link",
+      "share": "Share"
+    },
+    "emailInfo": "We'll credit your rewards to the following email:",
+    "linkCopied": "Link copied!",
+    "qrCodeTitle": "Show or send this QR code:",
+    "sendLink": "Or send a link:",
+    "title": "Share your referral link"
+  },
+  "sticker": {
+    "certifiedFake": "Certified fake.",
+    "craftetBy": "Crafted by AirHelp."
+  },
+  "storeReviews": {
+    "description": "Every insight helps us improve",
+    "reportButtonLabel": "Could be better",
+    "reportFeedback": {
+      "inputPlaceholder": "Share any issues or ideas...",
+      "inputPlaceholderFeedback": "Enter a brief explanation ",
+      "submitButtonLabel": "Submit",
+      "title": "Help us understand what didn't work.",
+      "titleHelpFeedback": "What are your suggestions?"
+    },
+    "reviewButtonLabel": "It's great",
+    "success": {
+      "desc": "You're helping make AirHelp better for everyone.",
+      "title": "Thanks! Your message is with us."
+    },
+    "title": "Is AirHelp working well for you?"
+  },
+  "subscriptions": {
+    "airLuggagePerk": "Luggage insurance",
+    "airPayoutPerk": "Flight disruption insurance",
+    "allowsTripProtectCount": "Your plan protects {{count}} trips per year",
+    "allowsTripProtectCount_plural": "Your plan protects {{count}} trips per year",
+    "allowsTripProtectCountUs": "Your plan protects up to {{count}} domestic\nor international trip per year",
+    "allowsTripProtectCountUs_plural": "Your plan protects up to {{count}} domestic\nor international trips per year",
+    "allowsTripProtection": "Your current plan allows you\nto protect trips",
+    "annualMembership": "Annual membership",
+    "benefitsAvailableAllTime": "Benefits available ALL time",
+    "benefitsThroughoutYear": "Your year-round benefits",
+    "benefitsUsOffer": "What you get for international trips",
+    "canceled": "You've canceled your subscription",
+    "compensationPerk": "100% of your compensation",
+    "compensationPerkUsOffer": "Up to {{value}} airline cash compensation — no service fee!",
+    "dedicatedSupportPerk": "24/7 dedicated support",
+    "from": "{{from}} to {{to}}",
+    "loungeAccessPerk": "Lounge comfort",
+    "menageSubscription": "Manage subscription",
+    "missedConnectionPerk": "Missed connection insurance",
+    "noAvailableTripProtection": "You have no protected trips remaining",
+    "planEnd": "Your {{productName}} will end on {{date}}",
+    "protection": "Membership period",
+    "renews": "Renews {{date}}",
+    "title": "My AirHelp+",
+    "travelPerk": "Travel perks and discounts",
+    "tripsAvailableForProtection": "You have {{count}} protected trip remaining",
+    "tripsAvailableForProtection_plural": "You have {{count}} protected trips remaining",
+    "tripsHasAlreadyProtected": "{{count}} trip has already been protected",
+    "tripsHasAlreadyProtected_plural": "{{count}} trips have already been protected",
+    "updatePayment": "Payment failed. Please update your\npayment details to renew membership.",
+    "updatePaymentToDate": "Payment failed. Please update your\npayment details before {{date}}\nto to keep AirHelp+.",
+    "yourNextBill": "Your next payment is {{value}}"
+  },
+  "tabBar": {
+    "claims": "Claims",
+    "profile": "Profile",
+    "trips": "Trips"
+  },
+  "textRichSticker": {
+    "arrivalTime": "{{scheduledLocalArrivalHour}} local time",
+    "date": "Date: {{departureDate}}",
+    "departureTime": "{{scheduledLocalDepartureHour}} local time",
+    "flight": "Flight: {{airline}} {{flightNumber}}",
+    "flightIndexed": "Flight nr {{index}}: {{airline}} {{flightNumber}}",
+    "flightLength": "Flight length: {{flightDuration}}",
+    "fromCity": "From: {{departureAirportCity}} ({{departureAirportCode}})",
+    "fullTrip": "Full Trip",
+    "gate": "Gate: {{departureGate}}",
+    "signature": "SENT FROM THE AIRHELP APP",
+    "terminal": "Terminal: {{departureTerminal}}",
+    "toCity": "To: {{arrivalAirportCity}} ({{arrivalAirportCode}})"
+  },
+  "tripCreator": {
+    "addConnectingFlight": "Add connecting flight",
+    "addFlight": "Add a flight",
+    "addReturnFlightOrDestination": "Add a <span>return flight</span> or the next destination on your way",
+    "continue": "Continue",
+    "defaultDiscardBottomSheet": {
+      "description": "Please note this trip will not be saved.",
+      "leave": "Go back",
+      "stay": "Stay",
+      "title": "Go back to search results?"
+    },
+    "deleteFlight": "Delete flight",
+    "discardEditBottomSheet": {
+      "description": "Your changes will be lost. Are you sure you want to discard?",
+      "leave": "Discard",
+      "stay": "Cancel",
+      "title": "Discard unsaved changes?"
+    },
+    "errors": {
+      "addFlightsToSave": "Add flights to save this trip.",
+      "flightAlreadyAdded": "This flight has already been added.",
+      "youReachedTheMaximumFlights": "Your trip has reached the max. limit of {{count}} flights."
+    },
+    "goBackNoticeBottomSheet": {
+      "description": "Anything you've entered so far will be lost.",
+      "title": "Are you sure you want to go back?"
+    },
+    "insuranceBottomSheet": {
+      "confirmButtonLabel": "Got it",
+      "title": "This trip is protected by AirHelp+"
+    },
+    "lessThan48hUpsellBottomSheet": {
+      "buttons": {
+        "primary": "Subscribe to AirHelp+",
+        "secondary": "Save without subscription"
+      },
+      "checkpoints": [
+        "Zero service fee for your compensation",
+        "Travel perks",
+        "Expert 24/7 support"
+      ],
+      "description": "...but you can still enjoy all the other great benefits!",
+      "termsLink": "Terms apply*",
+      "title": "Your trip starts in less than 48 hours, so full coverage isn't available..."
+    },
+    "moreThan48hUpsellBottomSheet": {
+      "buttons": {
+        "primary": "Subscribe to AirHelp+",
+        "secondary": "Maybe later"
+      },
+      "checkpoints": [
+        "{{value}} when your flight's disrupted",
+        "{{value}} when you miss a connecting flight",
+        "{{value}} when your luggage gets lost or delayed",
+        "Lounge comfort during a disruption",
+        "Up to {{value}} compensation — no service fee taken!",
+        "Up to {{value}} compensation for international trips - no service fee taken! "
+      ],
+      "description": "Your trip starts in over 48 hours, so you can still fly with confidence with one of our plans!",
+      "termsLink": "Read T&Cs",
+      "title": "You're in time to protect your trip with AirHelp+"
+    },
+    "move": {
+      "down": "Move down",
+      "toRoute": "Move to Route {{ number }}",
+      "up": "Move up"
+    },
+    "save": "Save",
+    "subtitle": "Trip name",
+    "tabs": {
+      "myTrip": "My trip",
+      "otherTrips": "Other trip"
+    },
+    "title": "Trip to {{name}}",
+    "tripItineraryCardActionBanner": {
+      "description": "Add all of your flights to ensure we have the details we need to get you compensation.",
+      "title": "Did you have any connecting flights?"
+    },
+    "tripOwnershipSelector": {
+      "myTrip": {
+        "desc": "Get important flight updates or protect your trips with AirHelp+",
+        "subtitle": "Yes, I'm the passenger"
+      },
+      "otherTrip": {
+        "desc": "Follow the flight's progress and get updates along the way",
+        "subtitle": "I’m tracking the flight"
+      },
+      "headerTitle": "Are you the passenger ?",
+      "infoDescription": "AirHelp+ protection only applies to your own trips"
+    },
+    "tripSavedSuccessfully": "Trip has been saved",
+    "tripSuccessScreen": {
+      "ah_plus_eligible_protected": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} days",
+        "bottomSheet": {
+          "title": "This trip is <span>protected</span> thanks to your AirHelp+ membership.",
+          "description": "",
+          "content": [
+            "<span>Free</span> lounge access during a disruption",
+            "<span>{{value}} when your flight's dirupted</span> compensation from airline",
+            "<span>{{value}}</span> when your luggage is lost or delayed"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "standard_eligible_upgrade_possible": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} days",
+        "bottomSheet": {
+          "title": "<span>Delays</span> on your return are painful. We'll <span>protect</span> you!",
+          "description": "",
+          "content": [
+            "<span>Free</span> lounge access during a disruption",
+            "<span>{{value}}</span> when your flight's disrupted",
+            "<span>{{value}}</span> when your luggage is lost or delayed"
+          ],
+          "primaryButton": "View plans",
+          "secondaryButton": "Skip"
+        }
+      },
+      "ah_plus_non_eligible_no_import": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} hour",
+        "description_plural": "You're taking off in {{count}} hours",
+        "bottomSheet": {
+          "title": "Too late to be protected.",
+          "description": "AirHelp+ protection is only available for trips added at least 48 hours before departure.",
+          "content": [
+            "",
+            "Sync your Gmail and Calendar to add trips automatically right after booking."
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "ah_plus_non_eligible_with_import": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} hour",
+        "description_plural": "You're taking off in {{count}} hours",
+        "bottomSheet": {
+          "title": "Too late to be protected.",
+          "description": "Trips must be added 48h in advance for protection. Your other benefits remain active.",
+          "content": [
+            "Up to <span>{{value}}</span> compensation - no service fee taken!",
+            "Customer support",
+            "Travel discounts & benefits"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "standard_non_eligible_with_import": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} hour",
+        "description_plural": "You're taking off in {{count}} hours",
+        "bottomSheet": {
+          "title": "We'll track your flights and notify you of any disruptions.",
+          "description": "",
+          "content": [
+            "Real-time flight status tracking",
+            "Delay and cancellation alerts",
+            "Terminal and gate notifications"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "standard_non_eligible_no_import": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} hour",
+        "description_plural": "You're taking off in {{count}} hours",
+        "bottomSheet": {
+          "title": "We'll track your flight and notify you of any disruptions.",
+          "description": "Connect your Gmail or calendar to automatically add future trips right after booking.",
+          "content": [
+            "Calendar or Gmail import",
+            "Import flights automatically from your bookings"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "ah_plus_non_eligible_token_upgrade_possible": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} days",
+        "bottomSheet": {
+          "title": "Protection limit reached, but benefits still available.",
+          "description": "",
+          "content": [
+            "<span>Free</span> lounge access during a disruption",
+            "<span>{{value}}</span> when your flight's disrupted",
+            "<span>{{value}}</span> when your luggage is lost or delayed"
+          ],
+          "primaryButton": "Manage subscription",
+          "secondaryButton": "Go to trips"
+        }
+      },
+      "ah_plus_non_eligible_no_tokens_upgrade_impossible": {
+        "title": "Trip has been created",
+        "description": "You're taking off in {{count}} days",
+        "bottomSheet": {
+          "title": "Protection limit reached, but benefits still available.",
+          "description": "",
+          "content": [
+            "Up to <span>{{value}}</span> compensation - no service fee taken!",
+            "Customer support",
+            "Travel discounts & benefits"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      },
+      "past_trip_claim_check": {
+        "title": "Trip added to your history",
+        "description": "",
+        "bottomSheet": {
+          "title": "We'll check it for possible compensation.",
+          "description": "We'll flag any qualifying disruptions and let you know if you're eligible for compensation.",
+          "content": [],
+          "primaryButton": "Create another trip",
+          "secondaryButton": "Go home"
+        }
+      },
+      "other_past_trip": {
+        "title": "Trip added to your history",
+        "description": "",
+        "bottomSheet": {
+          "title": "We'll check it for possible compensation.",
+          "description": "Since it's not your trip, you can't claim yourself, but we'll flag any qualifying disruptions for you to share with the traveler.",
+          "content": ["Referral program", "Receive rewards for others' successful claims"],
+          "primaryButton": "Create another trip",
+          "secondaryButton": "Go home"
+        }
+      },
+      "other_active_trip": {
+        "title": "Trip has been created",
+        "description": "",
+        "bottomSheet": {
+          "title": "We'll track your flights and notify you of any disruptions.",
+          "description": "",
+          "content": [
+            "Real-time flight status tracking",
+            "Delay and cancellation alerts",
+            "Terminal and gate notifications"
+          ],
+          "primaryButton": "Go to trips",
+          "secondaryButton": ""
+        }
+      }
+    }
+  },
+  "tripDetails": {
+    "availableOperations": {
+      "tripDeletingAndEditingUnavailable": "Editing or deleting this trip isn't possible, but you can edit the name.",
+      "tripDeletingUnavailableOnly": "Deleting this trip isn't possible, but you can still edit it.",
+      "tripEditingUnavailableOnly": "Editing this trip isn't possible, but you can delete it and create a new one."
+    },
+    "delete": "Delete trip",
+    "deleteProtectedTripDescription": "You'll miss out on the protection provided by your AirHelp+ membership, including coverage for disruptions and luggage.",
+    "deleteTrackedFlightButton": "Stop tracking",
+    "deleteTrackedFlightConfirmation": "Stop tracking this flight?",
+    "deleteTrackedFlightDescription": "The flight will be deleted from your trips and you'll no longer get updates about it.",
+    "deleteTrackedFlightSuccess": "Flight successfully untracked",
+    "deleteTripConfirmation": "Delete this trip?",
+    "edit": "Edit trip",
+    "editTripNameOnly": "Edit trip name",
+    "header": {
+      "myTrip": "My trip",
+      "otherTrip": "Other trip"
+    },
+    "issues": {
+      "button": "Need help? Contact us",
+      "cellDesc": {
+        "compensation": "You could receive up to {{value}} compensation when you submit a claim.",
+        "default": "Submit a claim to get\nthe compensation you deserve."
+      },
+      "cellTitle": {
+        "compensation": "Report a disruption",
+        "default": "Flight problems?",
+        "trackedFlight": "Report a disruption"
+      },
+      "claim": "Claim",
+      "report": "Report",
+      "subTitle": {
+        "cancelled": "You may be entitled to up to {{compensation}} in compensation.",
+        "delayed": "Your flight was delayed by {{time}}. You may be entitled to up to {{compensation}} in compensation.",
+        "diverted": "You may be entitled to up to {{compensation}} in compensation.",
+        "missedConnection": "The delay of one of your flights may have left insufficient time to catch your next flight. You may be entitled to up to {{compensation}} in compensation."
+      },
+      "title": {
+        "cancelled": "One of your flights was canceled",
+        "default": "Any issues with your trip?",
+        "delayed": "One of your flights was delayed",
+        "diverted": "One of your flights was diverted",
+        "missedConnection": "One of your flights may have caused a missed connection",
+        "trackedFlight": "Any issues with your flight?"
+      }
+    },
+    "share": {
+      "boardingPassStickerTip": "This boarding pass won't get you through security, but it\n <span>will</span> give you likes!",
+      "copyStickerSuccess": "Sticker copied",
+      "flightCount": "Flight {{current}} of {{total}}: <span>{{destination}}</span>",
+      "shareLink": "Share link",
+      "shareLinkDesc": "Share your trip details with friends or family via text message to keep them updated wherever you go.",
+      "shareStickerCarouselTip": "Tap to select one of the designs above.",
+      "shareStickerDesc": "Flying somewhere new? Share a sticker to your social media stories or with a friend!",
+      "shareTextMessageDesc": "Share your trip details with friends or family via text message to keep them updated wherever you go.",
+      "stickers": "Stickers",
+      "textMessage": "Text message"
+    },
+    "stopTracking": "Stop tracking this flight",
+    "tripCta": {
+      "button": "Create new trip",
+      "desc": "Create a trip to store this flight along with connecting flights and full journeys in one place.",
+      "title": "Want to add this flight to your trips?"
+    }
+  },
+  "tripNameForm": {
+    "label": "Trip name",
+    "save": "Save",
+    "title": "Name your trip"
+  },
+  "trips": {
+    "addFlights": "Add flights",
+    "bottomSheet": {
+      "deleteTrip": {
+        "title": "Are you sure you want to delete\nthis trip?"
+      }
+    },
+    "confirmCta": "Confirm trip",
+    "forReview": "For review",
+    "headerTitle": "Stay on top\nof your flights",
+    "myTrip": "My trip",
+    "otherTrip": "Other trip",
+    "pastTrips": "Past trips",
+    "pastTripsCount": "Past trip · {{count}}",
+    "pastTripsCount_plural": "Past trips · {{count}}",
+    "protectedBy": "Protected by",
+    "shared": "Shared",
+    "trackAFlight": "Track a flight",
+    "trackedFlight": "Tracking flight",
+    "tripDateRangeWithFlights": "{{datesRange}} · {{count}} flight",
+    "tripDateRangeWithFlights_plural": "{{datesRange}} · {{count}} flights",
+    "tripHasBeenSaved": "Your trip has been saved!",
+    "tripInProgress": "Trip in progress",
+    "tripsForReview": "We found <span>{{count}} trip</span>",
+    "tripsForReview_plural": "We found <span>{{count}} trips</span>",
+    "ongoingTripsTitle": "Ongoing trips",
+    "upcomingTripsTitle": "Upcoming trips"
+  },
+  "tutorial": {
+    "addFlights": "Add flights",
+    "addTripsForUpdates": "Add your flights to get live updates and the latest\ninformation on the go.",
+    "followYourJourneys": "Follow the journeys of your loved ones or track\naircraft for fun and for free.",
+    "getCompensation": "Get a free compensation check",
+    "letsGetStarted": "Let's get started!",
+    "startClaim": "Start a claim or import disrupted flights directly from\n your inbox. You could get up to {{value}}!",
+    "trackFlights": "Track flights worldwide"
+  },
+  "update": {
+    "buttonLabel": "Update app",
+    "description": "We've been improving the app behind the scenes.\nDownload the latest version now to continue using it.",
+    "title": "Time for an update!"
+  },
+  "validations": {
+    "email": "Incorrect format — check your entry and try again",
+    "invalidPhoneNumber": "Invalid phone number",
+    "maxCharacters": "The maximum number of characters is {{count}}",
+    "required": "Your {{label}} is required",
+    "shortPassword": "Passwords should contain at least {{min}} characters",
+    "tripNameIsRequired": "Trip name is required"
+  },
+  "weather": {
+    "arrival": {
+      "header": "Arrival day weather"
+    },
+    "card": {
+      "arrivalTime": "Scheduled arrival time: {{arrivalTime}}",
+      "buttonCta": "More weather details",
+      "weatherToday": "Weather Today"
+    },
+    "details": {
+      "feelsLike": "Feels like",
+      "header": "Destination forecast",
+      "humidity": "Humidity",
+      "precipitation": "Precipitation",
+      "wind": "Wind"
+    },
+    "emptyState": {
+      "desc": "Weather forecast will be available 8 days before departure date.",
+      "header": "Weather forecast",
+      "title": "Forecast is not available yet"
+    },
+    "forecast": "Forecast",
+    "unit": {
+      "imperial": {
+        "precipitation": "mm/h",
+        "temperature": "°F",
+        "wind": "mph"
+      },
+      "metric": {
+        "precipitation": "mm/h",
+        "temperature": "°C",
+        "wind": "m/s"
+      }
+    }
+  },
+  "emailAuth": {
+    "title": "Continue with Email",
+    "loginUsingOtp": {
+      "header": "Enter code to get in the app",
+      "subheader": "We sent a verification code to your email",
+      "continueWithPassword": "Continue with password",
+      "resendCounter": "Resend code ({{seconds}}s)",
+      "resendCta": "Resend code",
+      "errors": {
+        "tooManyRequests": "Too many requests. Try again in 5 min",
+        "userBlocked": "This account has been blocked."
+      }
+    },
+    "verifyOtp": {
+      "errors": {
+        "tooManyRequests": "Too many requests. Try again in 10 min",
+        "invalidCredentials": "Incorrect verification code",
+        "codeExpired": "This verification code has expired. Request a new one."
+      }
+    },
+    "loginUsingPassword": {
+      "header": "Enter password",
+      "subheader": "You’re signing in with",
+      "submitCta": "Continue",
+      "errors": {
+        "invalidCredentials": "Invalid password. Try again."
+      }
+    }
+  }
+}
