@@ -3,15 +3,16 @@ phrase:
   project_id: a4e7d5f425cf5a7f639a3601f8450b12
   push:
     sources:
-    - file: ./src/i18n/locales/<locale_name>/testuser.json
+    - file: /<locale_name>/testuser.json
       params:
         file_format: i18next_4
   pull:
     targets:
-    - file: ./src/i18n/locales/<locale_name>/ttestuser_it.json
+    - file: ./<locale_name>/ttestuser_it.json
       params:
         file_format: i18next_4
   
+
 
 
 
