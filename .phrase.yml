@@ -6,14 +6,15 @@ phrase:
     - file: ./testuser.json
       params:
         file_format: i18next_4
-        locale_id: df7ff9742697b2bb4e5c2e4ce07ef350
+        locale_id: a923bb5499fe7ece5a824de7d4adb123
         update_translations: false
   pull:
     targets:
     - file: ./testuser_it.json
       params:
         file_format: i18next_4
-        locale_id: 30cfca4847bb590622aa36da301d8a5d
+        locale_id: e7810268d4d542c8dfd9f9950f502f6c
+
 
 
 
