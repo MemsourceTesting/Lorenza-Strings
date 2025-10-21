@@ -5,15 +5,16 @@ phrase:
     sources:
     - file: ./en.json
       params:
-        file_format: i18next_4
+        file_format: simple_json
         locale_id: df7ff9742697b2bb4e5c2e4ce07ef350
         update_translations: false
   pull:
     targets:
     - file: ./it.json
       params:
-        file_format: i18next_4
+        file_format: simple_json
         locale_id: 30cfca4847bb590622aa36da301d8a5d
+
 
 
 
