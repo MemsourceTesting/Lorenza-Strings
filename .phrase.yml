@@ -6,12 +6,14 @@ phrase:
     - file: ./src/i18n/locales/<locale_name>/translation.json
       params:
         file_format: i18next_4
+        update_translations: true
   pull:
     targets:
     - file: ./src/i18n/locales/<locale_name>/translation.json
       params:
         file_format: i18next_4
   
+
 
 
 
