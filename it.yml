@@ -1,5 +1,8 @@
 ---
 it:
+  calendar:
+    fullWeekdays: "-La domenica -Il lunedì -Il martedì -Il mercoledì -Il giovedì -Il
+      venerdì -Il sabato"
   key1: 'testo
 
     '
