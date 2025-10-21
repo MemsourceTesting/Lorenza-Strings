@@ -8,9 +8,10 @@ phrase:
         file_format: i18next_4
   pull:
     targets:
-    - file: ./source_file/i18n/locales/<locale_name>/translation_new.json
+    - file: ./source_file/i18n/locales/<locale_name>/translation_new_target.json
       params:
         file_format: i18next_4
+
 
 
 
