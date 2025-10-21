@@ -11,7 +11,8 @@ phrase:
     - file: ./src/i18n/locales/<locale_name>/translation.json
       params:
         file_format: i18next_4
-  
+
+
 
 
 
