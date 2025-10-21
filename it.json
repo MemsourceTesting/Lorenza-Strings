@@ -1,7 +1,5 @@
 {
-  "calendar": {
-    "fullWeekdays": "---\n-La domenica\n-Il lunedì\n-Il martedì\n-Il mercoledì\n-Il giovedì\n-Il venerdì\n-Il sabato\n"
-  },
+  "calendar.fullWeekdays": "---\n-La domenica\n-Il lunedì\n-Il martedì\n-Il mercoledì\n-Il giovedì\n-Il venerdì\n-Il sabato\n",
   "key1": "testo\n",
   "key2": "testo testo"
 }
