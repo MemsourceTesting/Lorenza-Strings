@@ -3,16 +3,17 @@ phrase:
   project_id: a3f13a30a1db71c3305a751b525657d7
   push:
     sources:
-    - file: ./source_file/i18n/locales/<locale_name>/translation_new.json
+    - file: ./source_file/i18n/locales/<locale_name>/new.txt
       params:
         file_format: i18next_4
         locale_id: en
         autotranslate: true
   pull:
     targets:
-    - file: ./source_file/i18n/locales/<locale_name>/translation_new_target.json
+    - file: ./source_file/i18n/locales/<locale_name>/new_target.txt
       params:
         file_format: i18next_4
+
 
 
 
