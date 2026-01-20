@@ -3,21 +3,40 @@ phrase:
   project_id: a3f13a30a1db71c3305a751b525657d7
   push:
     sources:
-    - file: ./source_file/i18n/locales/en/new2.json
-    - file: ./source_file/i18n/locales/en/new3.json
-    - file: ./source_file/i18n/locales/en/new4.json
-      params:
-        file_format: i18next_4
-        locale_id: cea21ab6a01c6cd1a184465c58b49d71
-        autotranslate: true
-        update_translations: true 
+      - file: ./source_file/i18n/locales/en/new2.json
+        params:
+          file_format: i18next_4
+          autotranslate: true
+          update_translations: true
+
+      - file: ./source_file/i18n/locales/en/new3.json
+        params:
+          file_format: i18next_4
+          autotranslate: true
+          update_translations: true
+
+      - file: ./source_file/i18n/locales/en/new4.json
+        params:
+          file_format: i18next_4
+          autotranslate: true
+          update_translations: true
+
   pull:
     targets:
-    - file: ./source_file/i18n/locales/it/new2_target.json
-    - file: ./source_file/i18n/locales/it/new3_target.json
-    - file: ./source_file/i18n/locales/it/new4_target.json
-      params:
-        file_format: i18next_4
+      - file: ./source_file/i18n/locales/it/new2_target.json
+        params:
+          file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
+
+      - file: ./source_file/i18n/locales/it/new3_target.json
+        params:
+          file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
+
+      - file: ./source_file/i18n/locales/it/new4_target.json
+        params:
+          file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
 
 
 
