@@ -6,18 +6,21 @@ phrase:
       - file: ./source_file/i18n/locales/en/new2.json
         params:
           file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
           autotranslate: true
           update_translations: true
 
       - file: ./source_file/i18n/locales/en/new3.json
         params:
           file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
           autotranslate: true
           update_translations: true
 
       - file: ./source_file/i18n/locales/en/new4.json
         params:
           file_format: i18next_4
+          locale_id: cea21ab6a01c6cd1a184465c58b49d71
           autotranslate: true
           update_translations: true
 
@@ -26,17 +29,18 @@ phrase:
       - file: ./source_file/i18n/locales/it/new2_target.json
         params:
           file_format: i18next_4
-          locale_id: cea21ab6a01c6cd1a184465c58b49d71
+          locale_id: 6767b2427e4c03881bef5a304654b0df
 
       - file: ./source_file/i18n/locales/it/new3_target.json
         params:
           file_format: i18next_4
-          locale_id: cea21ab6a01c6cd1a184465c58b49d71
+          locale_id: 6767b2427e4c03881bef5a304654b0df
 
       - file: ./source_file/i18n/locales/it/new4_target.json
         params:
           file_format: i18next_4
-          locale_id: cea21ab6a01c6cd1a184465c58b49d71
+          locale_id: 6767b2427e4c03881bef5a304654b0df
+
 
 
 
