@@ -32,20 +32,21 @@ phrase:
       - file: ./source_file/i18n/locales/it/new2_target.json
         params:
           file_format: i18next_4
-          tags: new2_target
+          tags: new2
           locale_id: 6767b2427e4c03881bef5a304654b0df
 
       - file: ./source_file/i18n/locales/it/new3_target.json
         params:
           file_format: i18next_4
-          tags: new3_target
+          tags: new3
           locale_id: 6767b2427e4c03881bef5a304654b0df
 
       - file: ./source_file/i18n/locales/it/new4_target.json
         params:
           file_format: i18next_4
-          tags: new4_target
+          tags: new4
           locale_id: 6767b2427e4c03881bef5a304654b0df
+
 
 
 
