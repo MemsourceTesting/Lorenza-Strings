@@ -1,27 +1,4 @@
 {
-  "calendar": {
-    "months": [
-      "Gennaio test",
-      "Febbraio",
-      "Marzo",
-      "Aprile",
-      "Maggio",
-      "Giugno",
-      "Luglio",
-      "Agosto",
-      "Settembre",
-      "Ottobre",
-      "Novembre",
-      "Dicembre test"
-    ]
-  },
-  "k12": "test uno",
-  "k13": "di prova2. updated",
-  "key12222": "questa è una frase nuova",
-  "key212121": "questa è una seconda frase nuova",
-  "key7777": "un'altra frase nuova",
   "test1": "t$h$i$s$ i$s$",
-  "test2": "questo è un secondo test",
-  "test89": "cosa",
-  "test90": "hi!"
+  "test2": "questo è un secondo test"
 }
