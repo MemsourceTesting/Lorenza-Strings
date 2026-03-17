@@ -29,7 +29,7 @@ phrase:
 
   pull:
     targets:
-      - file: ./source_file/i18n/locales/it/new2_target.json
+      - file: ./source_file/i18n/locales/it/test_target.json
         params:
           file_format: i18next_4
           tags: new2
