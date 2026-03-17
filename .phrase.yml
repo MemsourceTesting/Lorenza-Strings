@@ -3,7 +3,7 @@ phrase:
   project_id: a3f13a30a1db71c3305a751b525657d7
   push:
     sources:
-      - file: ./source_file/i18n/locales/en/new2.json
+      - file: ./source_file/i18n/locales/en/test.json
         params:
           file_format: i18next_4
           tags: new2
